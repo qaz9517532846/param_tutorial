@@ -1,0 +1,9 @@
+<launch>
+   <!--param name="a" value="2"/-->
+   <!--param name="b" value="3"/-->
+
+   <node name="getParam" pkg="param_tutorial" type="getParam" output="screen">
+       <param name="a" value="2"/>
+       <param name="b" value="3"/>
+   </node>
+</launch>
