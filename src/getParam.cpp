@@ -11,6 +11,9 @@ int main(int argc, char **argv)
   n.getParam("getParam/a", a);
   n.getParam("getParam/b", b);
 
+  ros::param::param("getParam/a", a, 0);
+  ros::param::param("getParam/b", b, 0);
+
   ROS_INFO("Param a = %d", a);
   ROS_INFO("Param b = %d", b);
 

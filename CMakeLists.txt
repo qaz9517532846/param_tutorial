@@ -196,6 +196,10 @@ add_executable(getParam src/getParam.cpp)
 target_link_libraries(getParam ${catkin_LIBRARIES})
 add_dependencies(getParam param_tutorial_generate_messages_cpp)
 
+add_executable(setParam src/setParam.cpp)
+target_link_libraries(setParam ${catkin_LIBRARIES})
+add_dependencies(setParam param_tutorial_generate_messages_cpp)
+
 #############
 ## Testing ##
 #############

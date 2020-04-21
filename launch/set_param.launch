@@ -1,0 +1,4 @@
+<launch>
+   <node name="setParam" pkg="param_tutorial" type="setParam"/>
+   <node name="getParam" pkg="param_tutorial" type="getParam" output="screen" />
+</launch>
